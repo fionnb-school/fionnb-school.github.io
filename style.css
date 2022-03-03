@@ -1,0 +1,16 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+p {
+  color: red;
+  text-align: center;
+}
+* {
+  border: 2px solid powderblue;
+  margin: auto;
+  font-family: "Arial", sans-serif;
+}
