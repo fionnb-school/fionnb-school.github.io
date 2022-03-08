@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Fionn's CBA site</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+	<head>
+		<title>Fionn's CBA site</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="clicker.js"></script>
+		<script type="text/javascript">
+			function buttonClick() {
+				window.location="/page/general-computing"
+			}
+		</script>
+	</head>
 
-<h1>Junior Cycle Coding - Fionn's Journey</h1>
-<p>Coding at Junior Cycle is made up of 3 pieces of assessment. The first piece of work was general computing the second was a block code project using the microbit & leading onto scratch, the third is this website exploring HTML & CSS</p>
 
-</body>
+
+	<body>
+		<h1>Junior Cycle Coding - Fionn's Journey</h1>
+		<p>Coding at Junior Cycle is made up of 3 pieces of assessment. The first piece of work was general computing the second was a block code project using the microbit & leading onto scratch, the third is this website exploring HTML & CSS</p>
+		<br><p>Below are buttons which will lead you to more information about our journey in coding. Have a look!</p>
+		<button onclick="buttonClick()" class="button">General Computing</button>
+		<button onclick="buttonClick()" class="button">Block Code</button>
+		<button onclick="buttonClick()" class="button">HTML</button>
+		<br><br><br>
+		<h2>Fun game!</h2>
+		<button onclick="clickerCounter()" class="button button1">click this</button>
+         <div id="clickerCounter">you have clicked 0 times.</div>
+         <br><br><br>
+		<marquee class="marquex" direction="right"><i>made by fionn</i></marquee>
+	</body>
 </html>
