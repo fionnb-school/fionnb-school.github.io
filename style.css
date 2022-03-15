@@ -1,4 +1,4 @@
-*:not(.marquex)
+*:not(.marquex):not(.p2)
 {
     font-family: 'Arial', sans-serif;
     text-align: center;
