@@ -1,0 +1,93 @@
+*:not(.marquex):not(p2)
+{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+    color: white;
+    background: #2C2F33;
+}
+
+p2 {
+    text-align: left;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.marquex {
+	background-color: #444444;
+}
+
+.button {
+  background-color: #333333;
+  border: 1px solid #333333;
+  color: white;
+  padding: 16px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+ #foo {
+    position: fixed;
+    bottom: 0;
+    left: 1;
+  }
+
+.button:hover 
+{
+    background-color: #333333;
+    color: #d3d
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 2px;
+}
+
+.topleft {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+click
+{
+    float: left;
+    text-align: center;
+}
+
+c1
+{
+    float: right;
+    text-align: center;
+}
+
+c2
+{
+    float: center;
+    text-align: center;
+}
+
+a
+{
+    color: white;
+    text-align: center;
+}
